@@ -1,0 +1,470 @@
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1691349497281775, "dur":1268, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1691349497283049, "dur":43, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1691349497283107, "dur":12, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1691349497283119, "dur":205, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1691349497283344, "dur":405, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1691349497283749, "dur":1, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1691349498734086, "dur":103, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1691349498734189, "dur":36, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1691349498734226, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1691349498734229, "dur":11, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1691349498734240, "dur":20, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1691349498734260, "dur":8, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1691349498734268, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1691349498734270, "dur":3, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1691349498734274, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1691349498734275, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1691349498734279, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1691349498734280, "dur":3, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1691349498734283, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1691349498734284, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1691349498734288, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1691349498734289, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1691349498734293, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1691349498734310, "dur":2, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1691349498734335, "dur":1829, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1691349497283555, "dur":203, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1691349497283758, "dur":3296, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1691349497287055, "dur":153, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles SixthWeekBuild/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":1, "ts":1691349497287210, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1691349497299172, "dur":4563, "ph":"X", "name": "CopyFiles",  "args": { "detail":"SixthWeekBuild/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":1, "ts":1691349497303770, "dur":119, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles SixthWeekBuild/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":1, "ts":1691349497303892, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1691349497303900, "dur":1216, "ph":"X", "name": "CopyFiles",  "args": { "detail":"SixthWeekBuild/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":1, "ts":1691349497305146, "dur":81859, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles SixthWeekBuild/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":1, "ts":1691349497387008, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1691349497387631, "dur":2944, "ph":"X", "name": "CopyFiles",  "args": { "detail":"SixthWeekBuild/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":1, "ts":1691349497390664, "dur":18712, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles SixthWeekBuild/SixthWeekHomework_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1691349497409380, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1691349497409392, "dur":5246, "ph":"X", "name": "CopyFiles",  "args": { "detail":"SixthWeekBuild/SixthWeekHomework_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1691349497414703, "dur":20560, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles SixthWeekBuild/SixthWeekHomework_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1691349497435267, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1691349497435322, "dur":3333, "ph":"X", "name": "CopyFiles",  "args": { "detail":"SixthWeekBuild/SixthWeekHomework_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1691349497438688, "dur":71899, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles SixthWeekBuild/SixthWeekHomework_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1691349497510590, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1691349497510626, "dur":2117, "ph":"X", "name": "CopyFiles",  "args": { "detail":"SixthWeekBuild/SixthWeekHomework_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1691349497512781, "dur":40853, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles SixthWeekBuild/SixthWeekHomework_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1691349497553639, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1691349497553648, "dur":2530, "ph":"X", "name": "CopyFiles",  "args": { "detail":"SixthWeekBuild/SixthWeekHomework_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1691349497556212, "dur":55478, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles SixthWeekBuild/SixthWeekHomework_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1691349497611695, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1691349497611704, "dur":23047, "ph":"X", "name": "CopyFiles",  "args": { "detail":"SixthWeekBuild/SixthWeekHomework_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1691349497634789, "dur":18289, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles SixthWeekBuild/SixthWeekHomework_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1691349497653082, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1691349497653090, "dur":1219, "ph":"X", "name": "CopyFiles",  "args": { "detail":"SixthWeekBuild/SixthWeekHomework_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1691349497654337, "dur":55125, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles SixthWeekBuild/SixthWeekHomework_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1691349497709466, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1691349497709472, "dur":1705, "ph":"X", "name": "CopyFiles",  "args": { "detail":"SixthWeekBuild/SixthWeekHomework_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1691349497711207, "dur":20635, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles SixthWeekBuild/SixthWeekHomework_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1691349497731849, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1691349497731859, "dur":1294, "ph":"X", "name": "CopyFiles",  "args": { "detail":"SixthWeekBuild/SixthWeekHomework_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1691349497733185, "dur":71118, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles SixthWeekBuild/SixthWeekHomework_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1691349497804309, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1691349497804318, "dur":11411, "ph":"X", "name": "CopyFiles",  "args": { "detail":"SixthWeekBuild/SixthWeekHomework_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1691349497815769, "dur":64100, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles SixthWeekBuild/SixthWeekHomework_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1691349497879874, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1691349497879882, "dur":10137, "ph":"X", "name": "CopyFiles",  "args": { "detail":"SixthWeekBuild/SixthWeekHomework_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1691349497890056, "dur":147838, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles SixthWeekBuild/SixthWeekHomework_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":1, "ts":1691349498037899, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1691349498037908, "dur":5180, "ph":"X", "name": "CopyFiles",  "args": { "detail":"SixthWeekBuild/SixthWeekHomework_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":1, "ts":1691349498043121, "dur":132822, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles SixthWeekBuild/SixthWeekHomework_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":1, "ts":1691349498175949, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1691349498175959, "dur":6535, "ph":"X", "name": "CopyFiles",  "args": { "detail":"SixthWeekBuild/SixthWeekHomework_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":1, "ts":1691349498182527, "dur":42437, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles SixthWeekBuild/SixthWeekHomework_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":1, "ts":1691349498224970, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1691349498224978, "dur":1282, "ph":"X", "name": "CopyFiles",  "args": { "detail":"SixthWeekBuild/SixthWeekHomework_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":1, "ts":1691349498226293, "dur":41685, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles SixthWeekBuild/SixthWeekHomework_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":1, "ts":1691349498267985, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1691349498267994, "dur":1305, "ph":"X", "name": "CopyFiles",  "args": { "detail":"SixthWeekBuild/SixthWeekHomework_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":1, "ts":1691349498269361, "dur":226646, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles SixthWeekBuild/SixthWeekHomework_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":1, "ts":1691349498496011, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1691349498496017, "dur":5750, "ph":"X", "name": "CopyFiles",  "args": { "detail":"SixthWeekBuild/SixthWeekHomework_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":1, "ts":1691349498501801, "dur":232279, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1691349497283755, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1691349497283756, "dur":3199, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1691349497286963, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":2, "ts":1691349497286969, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1691349497288471, "dur":647, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":2, "ts":1691349497289125, "dur":60, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles SixthWeekBuild/SixthWeekHomework_Data/app.info" }}
+,{ "pid":12345, "tid":2, "ts":1691349497289187, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1691349497289560, "dur":2651, "ph":"X", "name": "CopyFiles",  "args": { "detail":"SixthWeekBuild/SixthWeekHomework_Data/app.info" }}
+,{ "pid":12345, "tid":2, "ts":1691349497292214, "dur":11770, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles SixthWeekBuild/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":2, "ts":1691349497303988, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1691349497303997, "dur":2937, "ph":"X", "name": "CopyFiles",  "args": { "detail":"SixthWeekBuild/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":2, "ts":1691349497306971, "dur":754072, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles SixthWeekBuild/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":2, "ts":1691349498061049, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1691349498061056, "dur":76954, "ph":"X", "name": "CopyFiles",  "args": { "detail":"SixthWeekBuild/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":2, "ts":1691349498138046, "dur":236986, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles SixthWeekBuild/SixthWeekHomework_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":2, "ts":1691349498375038, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1691349498375047, "dur":17421, "ph":"X", "name": "CopyFiles",  "args": { "detail":"SixthWeekBuild/SixthWeekHomework_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":2, "ts":1691349498392506, "dur":338914, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles SixthWeekBuild/SixthWeekHomework_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":2, "ts":1691349498731425, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1691349498731432, "dur":2603, "ph":"X", "name": "CopyFiles",  "args": { "detail":"SixthWeekBuild/SixthWeekHomework_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":2, "ts":1691349498734059, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":2, "ts":1691349498734061, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1691349497283734, "dur":42, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1691349497283776, "dur":3181, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1691349497286963, "dur":51520, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles SixthWeekBuild/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":3, "ts":1691349497338487, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1691349497340457, "dur":1204, "ph":"X", "name": "CopyFiles",  "args": { "detail":"SixthWeekBuild/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":3, "ts":1691349497341694, "dur":44940, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles SixthWeekBuild/SixthWeekHomework_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1691349497386642, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1691349497386652, "dur":3971, "ph":"X", "name": "CopyFiles",  "args": { "detail":"SixthWeekBuild/SixthWeekHomework_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1691349497390711, "dur":122458, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles SixthWeekBuild/SixthWeekHomework_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1691349497513173, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1691349497513181, "dur":16888, "ph":"X", "name": "CopyFiles",  "args": { "detail":"SixthWeekBuild/SixthWeekHomework_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1691349497530110, "dur":26017, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles SixthWeekBuild/SixthWeekHomework_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1691349497556134, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1691349497556143, "dur":13052, "ph":"X", "name": "CopyFiles",  "args": { "detail":"SixthWeekBuild/SixthWeekHomework_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1691349497569236, "dur":36616, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles SixthWeekBuild/SixthWeekHomework_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1691349497605858, "dur":6, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1691349497605872, "dur":1580, "ph":"X", "name": "CopyFiles",  "args": { "detail":"SixthWeekBuild/SixthWeekHomework_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1691349497607484, "dur":40668, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles SixthWeekBuild/SixthWeekHomework_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1691349497648158, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1691349497648167, "dur":29337, "ph":"X", "name": "CopyFiles",  "args": { "detail":"SixthWeekBuild/SixthWeekHomework_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1691349497677780, "dur":33394, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles SixthWeekBuild/SixthWeekHomework_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1691349497711178, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1691349497711186, "dur":13393, "ph":"X", "name": "CopyFiles",  "args": { "detail":"SixthWeekBuild/SixthWeekHomework_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1691349497724624, "dur":19834, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles SixthWeekBuild/SixthWeekHomework_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1691349497744463, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1691349497744473, "dur":6535, "ph":"X", "name": "CopyFiles",  "args": { "detail":"SixthWeekBuild/SixthWeekHomework_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1691349497751039, "dur":35810, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles SixthWeekBuild/SixthWeekHomework_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":3, "ts":1691349497786883, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1691349497786892, "dur":1627, "ph":"X", "name": "CopyFiles",  "args": { "detail":"SixthWeekBuild/SixthWeekHomework_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":3, "ts":1691349497788554, "dur":20692, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles SixthWeekBuild/SixthWeekHomework_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1691349497809252, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1691349497809263, "dur":8968, "ph":"X", "name": "CopyFiles",  "args": { "detail":"SixthWeekBuild/SixthWeekHomework_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1691349497818274, "dur":50251, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles SixthWeekBuild/SixthWeekHomework_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1691349497868531, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1691349497868539, "dur":9965, "ph":"X", "name": "CopyFiles",  "args": { "detail":"SixthWeekBuild/SixthWeekHomework_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1691349497878533, "dur":156286, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles SixthWeekBuild/SixthWeekHomework_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":3, "ts":1691349498034825, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1691349498034835, "dur":1374, "ph":"X", "name": "CopyFiles",  "args": { "detail":"SixthWeekBuild/SixthWeekHomework_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":3, "ts":1691349498036243, "dur":99025, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles SixthWeekBuild/SixthWeekHomework_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":3, "ts":1691349498135299, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1691349498135309, "dur":42754, "ph":"X", "name": "CopyFiles",  "args": { "detail":"SixthWeekBuild/SixthWeekHomework_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":3, "ts":1691349498178101, "dur":166218, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles SixthWeekBuild/SixthWeekHomework_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":3, "ts":1691349498344325, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1691349498344334, "dur":2147, "ph":"X", "name": "CopyFiles",  "args": { "detail":"SixthWeekBuild/SixthWeekHomework_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":3, "ts":1691349498346514, "dur":145552, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles SixthWeekBuild/SixthWeekHomework_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":3, "ts":1691349498492109, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1691349498492117, "dur":2464, "ph":"X", "name": "CopyFiles",  "args": { "detail":"SixthWeekBuild/SixthWeekHomework_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":3, "ts":1691349498494620, "dur":94, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles SixthWeekBuild/SixthWeekHomework_Data/boot.config" }}
+,{ "pid":12345, "tid":3, "ts":1691349498494716, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1691349498494722, "dur":10079, "ph":"X", "name": "CopyFiles",  "args": { "detail":"SixthWeekBuild/SixthWeekHomework_Data/boot.config" }}
+,{ "pid":12345, "tid":3, "ts":1691349498504832, "dur":229249, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1691349497283690, "dur":74, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1691349497283764, "dur":3288, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1691349497287053, "dur":118, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles SixthWeekBuild/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":4, "ts":1691349497287175, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1691349497290686, "dur":4389, "ph":"X", "name": "CopyFiles",  "args": { "detail":"SixthWeekBuild/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":4, "ts":1691349497295755, "dur":380, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles SixthWeekBuild/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":4, "ts":1691349497296138, "dur":14, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1691349497298119, "dur":2666, "ph":"X", "name": "CopyFiles",  "args": { "detail":"SixthWeekBuild/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":4, "ts":1691349497300821, "dur":11195, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles SixthWeekBuild/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":4, "ts":1691349497312020, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1691349497312029, "dur":1330, "ph":"X", "name": "CopyFiles",  "args": { "detail":"SixthWeekBuild/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":4, "ts":1691349497313399, "dur":16791, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles SixthWeekBuild/SixthWeekHomework_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1691349497330196, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1691349497330691, "dur":1354, "ph":"X", "name": "CopyFiles",  "args": { "detail":"SixthWeekBuild/SixthWeekHomework_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1691349497332073, "dur":33946, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles SixthWeekBuild/SixthWeekHomework_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1691349497366023, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1691349497366030, "dur":2310, "ph":"X", "name": "CopyFiles",  "args": { "detail":"SixthWeekBuild/SixthWeekHomework_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1691349497368375, "dur":19533, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles SixthWeekBuild/SixthWeekHomework_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1691349497387913, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1691349497387920, "dur":9204, "ph":"X", "name": "CopyFiles",  "args": { "detail":"SixthWeekBuild/SixthWeekHomework_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1691349497397166, "dur":22403, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles SixthWeekBuild/SixthWeekHomework_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1691349497419584, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1691349497419609, "dur":3803, "ph":"X", "name": "CopyFiles",  "args": { "detail":"SixthWeekBuild/SixthWeekHomework_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1691349497423445, "dur":19718, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles SixthWeekBuild/SixthWeekHomework_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1691349497443170, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1691349497443181, "dur":4290, "ph":"X", "name": "CopyFiles",  "args": { "detail":"SixthWeekBuild/SixthWeekHomework_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1691349497447507, "dur":18479, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles SixthWeekBuild/SixthWeekHomework_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1691349497465992, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1691349497466000, "dur":1257, "ph":"X", "name": "CopyFiles",  "args": { "detail":"SixthWeekBuild/SixthWeekHomework_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1691349497467285, "dur":43291, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles SixthWeekBuild/SixthWeekHomework_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1691349497510582, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1691349497510591, "dur":2202, "ph":"X", "name": "CopyFiles",  "args": { "detail":"SixthWeekBuild/SixthWeekHomework_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1691349497512823, "dur":43595, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles SixthWeekBuild/SixthWeekHomework_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1691349497556422, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1691349497556427, "dur":2108, "ph":"X", "name": "CopyFiles",  "args": { "detail":"SixthWeekBuild/SixthWeekHomework_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1691349497558568, "dur":51379, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles SixthWeekBuild/SixthWeekHomework_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1691349497609954, "dur":7, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1691349497609970, "dur":1842, "ph":"X", "name": "CopyFiles",  "args": { "detail":"SixthWeekBuild/SixthWeekHomework_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1691349497611843, "dur":37311, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles SixthWeekBuild/SixthWeekHomework_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1691349497649518, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1691349497649524, "dur":3091, "ph":"X", "name": "CopyFiles",  "args": { "detail":"SixthWeekBuild/SixthWeekHomework_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1691349497652647, "dur":51749, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles SixthWeekBuild/SixthWeekHomework_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1691349497704401, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1691349497704409, "dur":4792, "ph":"X", "name": "CopyFiles",  "args": { "detail":"SixthWeekBuild/SixthWeekHomework_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1691349497709233, "dur":110317, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles SixthWeekBuild/SixthWeekHomework_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1691349497819555, "dur":8, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1691349497819570, "dur":18103, "ph":"X", "name": "CopyFiles",  "args": { "detail":"SixthWeekBuild/SixthWeekHomework_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1691349497837708, "dur":44238, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles SixthWeekBuild/SixthWeekHomework_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1691349497881952, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1691349497881962, "dur":35462, "ph":"X", "name": "CopyFiles",  "args": { "detail":"SixthWeekBuild/SixthWeekHomework_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1691349497917467, "dur":86477, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles SixthWeekBuild/SixthWeekHomework_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":4, "ts":1691349498003963, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1691349498003973, "dur":2824, "ph":"X", "name": "CopyFiles",  "args": { "detail":"SixthWeekBuild/SixthWeekHomework_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":4, "ts":1691349498006867, "dur":302809, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles SixthWeekBuild/SixthWeekHomework_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":4, "ts":1691349498309681, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1691349498309690, "dur":4034, "ph":"X", "name": "CopyFiles",  "args": { "detail":"SixthWeekBuild/SixthWeekHomework_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":4, "ts":1691349498313755, "dur":147300, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles SixthWeekBuild/SixthWeekHomework_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":4, "ts":1691349498461061, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1691349498461070, "dur":2092, "ph":"X", "name": "CopyFiles",  "args": { "detail":"SixthWeekBuild/SixthWeekHomework_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":4, "ts":1691349498463214, "dur":1998, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles SixthWeekBuild/SixthWeekHomework_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":4, "ts":1691349498465217, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1691349498465226, "dur":1479, "ph":"X", "name": "CopyFiles",  "args": { "detail":"SixthWeekBuild/SixthWeekHomework_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":4, "ts":1691349498466732, "dur":29, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles SixthWeekBuild/SixthWeekHomework_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":4, "ts":1691349498466763, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1691349498466768, "dur":8018, "ph":"X", "name": "CopyFiles",  "args": { "detail":"SixthWeekBuild/SixthWeekHomework_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":4, "ts":1691349498474841, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles SixthWeekBuild/SixthWeekHomework_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":4, "ts":1691349498474887, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1691349498474901, "dur":3534, "ph":"X", "name": "CopyFiles",  "args": { "detail":"SixthWeekBuild/SixthWeekHomework_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":4, "ts":1691349498478486, "dur":231, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles SixthWeekBuild/SixthWeekHomework_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":4, "ts":1691349498478721, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1691349498478729, "dur":1600, "ph":"X", "name": "CopyFiles",  "args": { "detail":"SixthWeekBuild/SixthWeekHomework_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":4, "ts":1691349498480362, "dur":30, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles SixthWeekBuild/SixthWeekHomework_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":4, "ts":1691349498480422, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1691349498480429, "dur":2692, "ph":"X", "name": "CopyFiles",  "args": { "detail":"SixthWeekBuild/SixthWeekHomework_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":4, "ts":1691349498483187, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles SixthWeekBuild/SixthWeekHomework_Data/resources.assets" }}
+,{ "pid":12345, "tid":4, "ts":1691349498483223, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1691349498483230, "dur":4231, "ph":"X", "name": "CopyFiles",  "args": { "detail":"SixthWeekBuild/SixthWeekHomework_Data/resources.assets" }}
+,{ "pid":12345, "tid":4, "ts":1691349498487513, "dur":270, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles SixthWeekBuild/SixthWeekHomework_Data/level1.resS" }}
+,{ "pid":12345, "tid":4, "ts":1691349498487787, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1691349498487794, "dur":2776, "ph":"X", "name": "CopyFiles",  "args": { "detail":"SixthWeekBuild/SixthWeekHomework_Data/level1.resS" }}
+,{ "pid":12345, "tid":4, "ts":1691349498490600, "dur":26, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles SixthWeekBuild/SixthWeekHomework_Data/level0.resS" }}
+,{ "pid":12345, "tid":4, "ts":1691349498490628, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1691349498490633, "dur":2825, "ph":"X", "name": "CopyFiles",  "args": { "detail":"SixthWeekBuild/SixthWeekHomework_Data/level0.resS" }}
+,{ "pid":12345, "tid":4, "ts":1691349498493492, "dur":71, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles SixthWeekBuild/SixthWeekHomework_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":4, "ts":1691349498493567, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1691349498493575, "dur":1711, "ph":"X", "name": "CopyFiles",  "args": { "detail":"SixthWeekBuild/SixthWeekHomework_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":4, "ts":1691349498495324, "dur":238758, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1691349497283722, "dur":47, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1691349497283769, "dur":3284, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1691349497287054, "dur":11680, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles SixthWeekBuild/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":5, "ts":1691349497298737, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1691349497298853, "dur":1195, "ph":"X", "name": "CopyFiles",  "args": { "detail":"SixthWeekBuild/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":5, "ts":1691349497300081, "dur":105, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles SixthWeekBuild/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":5, "ts":1691349497300189, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1691349497300245, "dur":1493, "ph":"X", "name": "CopyFiles",  "args": { "detail":"SixthWeekBuild/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":5, "ts":1691349497301773, "dur":125, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles SixthWeekBuild/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":5, "ts":1691349497301901, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1691349497301909, "dur":3072, "ph":"X", "name": "CopyFiles",  "args": { "detail":"SixthWeekBuild/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":5, "ts":1691349497305060, "dur":202, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles SixthWeekBuild/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":5, "ts":1691349497305265, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1691349497305272, "dur":2399, "ph":"X", "name": "CopyFiles",  "args": { "detail":"SixthWeekBuild/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":5, "ts":1691349497307706, "dur":819, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles SixthWeekBuild/SixthWeekHomework.exe" }}
+,{ "pid":12345, "tid":5, "ts":1691349497308529, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1691349497308536, "dur":3493, "ph":"X", "name": "CopyFiles",  "args": { "detail":"SixthWeekBuild/SixthWeekHomework.exe" }}
+,{ "pid":12345, "tid":5, "ts":1691349497312061, "dur":55375, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles SixthWeekBuild/SixthWeekHomework_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1691349497367442, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1691349497367453, "dur":2242, "ph":"X", "name": "CopyFiles",  "args": { "detail":"SixthWeekBuild/SixthWeekHomework_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1691349497369722, "dur":36135, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles SixthWeekBuild/SixthWeekHomework_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1691349497405869, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1691349497405884, "dur":3237, "ph":"X", "name": "CopyFiles",  "args": { "detail":"SixthWeekBuild/SixthWeekHomework_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1691349497409155, "dur":21848, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles SixthWeekBuild/SixthWeekHomework_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1691349497431011, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1691349497431022, "dur":3964, "ph":"X", "name": "CopyFiles",  "args": { "detail":"SixthWeekBuild/SixthWeekHomework_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1691349497435017, "dur":18632, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles SixthWeekBuild/SixthWeekHomework_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1691349497453655, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1691349497453663, "dur":2390, "ph":"X", "name": "CopyFiles",  "args": { "detail":"SixthWeekBuild/SixthWeekHomework_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1691349497456101, "dur":29877, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles SixthWeekBuild/SixthWeekHomework_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1691349497485988, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1691349497486004, "dur":3476, "ph":"X", "name": "CopyFiles",  "args": { "detail":"SixthWeekBuild/SixthWeekHomework_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1691349497489533, "dur":159428, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles SixthWeekBuild/SixthWeekHomework_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":5, "ts":1691349497648965, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1691349497648972, "dur":3366, "ph":"X", "name": "CopyFiles",  "args": { "detail":"SixthWeekBuild/SixthWeekHomework_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":5, "ts":1691349497652373, "dur":17684, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles SixthWeekBuild/SixthWeekHomework_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1691349497670064, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1691349497670073, "dur":1330, "ph":"X", "name": "CopyFiles",  "args": { "detail":"SixthWeekBuild/SixthWeekHomework_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1691349497671436, "dur":44354, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles SixthWeekBuild/SixthWeekHomework_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1691349497715795, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1691349497715804, "dur":8635, "ph":"X", "name": "CopyFiles",  "args": { "detail":"SixthWeekBuild/SixthWeekHomework_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1691349497724474, "dur":16388, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles SixthWeekBuild/SixthWeekHomework_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1691349497740869, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1691349497740879, "dur":1311, "ph":"X", "name": "CopyFiles",  "args": { "detail":"SixthWeekBuild/SixthWeekHomework_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1691349497742227, "dur":27052, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles SixthWeekBuild/SixthWeekHomework_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1691349497769284, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1691349497769295, "dur":5033, "ph":"X", "name": "CopyFiles",  "args": { "detail":"SixthWeekBuild/SixthWeekHomework_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1691349497774361, "dur":33322, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles SixthWeekBuild/SixthWeekHomework_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1691349497807688, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1691349497807697, "dur":17489, "ph":"X", "name": "CopyFiles",  "args": { "detail":"SixthWeekBuild/SixthWeekHomework_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1691349497825222, "dur":55305, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles SixthWeekBuild/SixthWeekHomework_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1691349497880531, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1691349497880538, "dur":9985, "ph":"X", "name": "CopyFiles",  "args": { "detail":"SixthWeekBuild/SixthWeekHomework_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1691349497890555, "dur":149102, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles SixthWeekBuild/SixthWeekHomework_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":5, "ts":1691349498039662, "dur":9, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1691349498039677, "dur":111993, "ph":"X", "name": "CopyFiles",  "args": { "detail":"SixthWeekBuild/SixthWeekHomework_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":5, "ts":1691349498151703, "dur":93232, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles SixthWeekBuild/SixthWeekHomework_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":5, "ts":1691349498244942, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1691349498244951, "dur":10956, "ph":"X", "name": "CopyFiles",  "args": { "detail":"SixthWeekBuild/SixthWeekHomework_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":5, "ts":1691349498255940, "dur":208158, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles SixthWeekBuild/SixthWeekHomework_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":5, "ts":1691349498464129, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1691349498464138, "dur":2024, "ph":"X", "name": "CopyFiles",  "args": { "detail":"SixthWeekBuild/SixthWeekHomework_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":5, "ts":1691349498466209, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles SixthWeekBuild/SixthWeekHomework_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":5, "ts":1691349498466247, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1691349498466280, "dur":2637, "ph":"X", "name": "CopyFiles",  "args": { "detail":"SixthWeekBuild/SixthWeekHomework_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":5, "ts":1691349498468951, "dur":30, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles SixthWeekBuild/SixthWeekHomework_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":5, "ts":1691349498468984, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1691349498468990, "dur":3228, "ph":"X", "name": "CopyFiles",  "args": { "detail":"SixthWeekBuild/SixthWeekHomework_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":5, "ts":1691349498472277, "dur":49, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles SixthWeekBuild/SixthWeekHomework_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":5, "ts":1691349498472329, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1691349498472335, "dur":7546, "ph":"X", "name": "CopyFiles",  "args": { "detail":"SixthWeekBuild/SixthWeekHomework_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":5, "ts":1691349498479910, "dur":923, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles SixthWeekBuild/SixthWeekHomework_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":5, "ts":1691349498480837, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1691349498480843, "dur":7922, "ph":"X", "name": "CopyFiles",  "args": { "detail":"SixthWeekBuild/SixthWeekHomework_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":5, "ts":1691349498488795, "dur":28, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles SixthWeekBuild/SixthWeekHomework_Data/level1" }}
+,{ "pid":12345, "tid":5, "ts":1691349498488825, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1691349498488830, "dur":3325, "ph":"X", "name": "CopyFiles",  "args": { "detail":"SixthWeekBuild/SixthWeekHomework_Data/level1" }}
+,{ "pid":12345, "tid":5, "ts":1691349498492187, "dur":27, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles SixthWeekBuild/SixthWeekHomework_Data/level0" }}
+,{ "pid":12345, "tid":5, "ts":1691349498492216, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1691349498492219, "dur":1638, "ph":"X", "name": "CopyFiles",  "args": { "detail":"SixthWeekBuild/SixthWeekHomework_Data/level0" }}
+,{ "pid":12345, "tid":5, "ts":1691349498493884, "dur":30, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles SixthWeekBuild/SixthWeekHomework_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":5, "ts":1691349498493916, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1691349498493920, "dur":1579, "ph":"X", "name": "CopyFiles",  "args": { "detail":"SixthWeekBuild/SixthWeekHomework_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":5, "ts":1691349498495528, "dur":238555, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1691349497283780, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1691349497283780, "dur":3271, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1691349497287052, "dur":11624, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles SixthWeekBuild/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":6, "ts":1691349497298680, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1691349497299497, "dur":6047, "ph":"X", "name": "CopyFiles",  "args": { "detail":"SixthWeekBuild/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":6, "ts":1691349497305578, "dur":173797, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles SixthWeekBuild/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":6, "ts":1691349497479378, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1691349497480212, "dur":17898, "ph":"X", "name": "CopyFiles",  "args": { "detail":"SixthWeekBuild/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":6, "ts":1691349497498146, "dur":21569, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles SixthWeekBuild/SixthWeekHomework_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1691349497519721, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1691349497519730, "dur":2869, "ph":"X", "name": "CopyFiles",  "args": { "detail":"SixthWeekBuild/SixthWeekHomework_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1691349497522629, "dur":113027, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles SixthWeekBuild/SixthWeekHomework_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1691349497635663, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1691349497635673, "dur":16659, "ph":"X", "name": "CopyFiles",  "args": { "detail":"SixthWeekBuild/SixthWeekHomework_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1691349497652371, "dur":31677, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles SixthWeekBuild/SixthWeekHomework_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1691349497684056, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1691349497684065, "dur":1264, "ph":"X", "name": "CopyFiles",  "args": { "detail":"SixthWeekBuild/SixthWeekHomework_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1691349497685366, "dur":23602, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles SixthWeekBuild/SixthWeekHomework_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1691349497708975, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1691349497708985, "dur":16271, "ph":"X", "name": "CopyFiles",  "args": { "detail":"SixthWeekBuild/SixthWeekHomework_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1691349497725300, "dur":32774, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles SixthWeekBuild/SixthWeekHomework_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1691349497758080, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1691349497758090, "dur":14638, "ph":"X", "name": "CopyFiles",  "args": { "detail":"SixthWeekBuild/SixthWeekHomework_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1691349497772959, "dur":160506, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles SixthWeekBuild/SixthWeekHomework_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1691349497933472, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1691349497933484, "dur":3954, "ph":"X", "name": "CopyFiles",  "args": { "detail":"SixthWeekBuild/SixthWeekHomework_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1691349497937471, "dur":104321, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles SixthWeekBuild/SixthWeekHomework_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":6, "ts":1691349498041798, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1691349498041807, "dur":34523, "ph":"X", "name": "CopyFiles",  "args": { "detail":"SixthWeekBuild/SixthWeekHomework_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":6, "ts":1691349498076375, "dur":204449, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles SixthWeekBuild/SixthWeekHomework_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":6, "ts":1691349498280830, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1691349498280867, "dur":17683, "ph":"X", "name": "CopyFiles",  "args": { "detail":"SixthWeekBuild/SixthWeekHomework_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":6, "ts":1691349498298592, "dur":66430, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles SixthWeekBuild/SixthWeekHomework_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":6, "ts":1691349498365028, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1691349498365037, "dur":4051, "ph":"X", "name": "CopyFiles",  "args": { "detail":"SixthWeekBuild/SixthWeekHomework_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":6, "ts":1691349498369125, "dur":66973, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles SixthWeekBuild/SixthWeekHomework_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":6, "ts":1691349498436104, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1691349498436114, "dur":7150, "ph":"X", "name": "CopyFiles",  "args": { "detail":"SixthWeekBuild/SixthWeekHomework_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":6, "ts":1691349498443295, "dur":236129, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles SixthWeekBuild/SixthWeekHomework_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":6, "ts":1691349498679429, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1691349498679437, "dur":1245, "ph":"X", "name": "CopyFiles",  "args": { "detail":"SixthWeekBuild/SixthWeekHomework_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":6, "ts":1691349498680705, "dur":53380, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1691349497283866, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1691349497283867, "dur":3183, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1691349497287050, "dur":130, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles SixthWeekBuild/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":7, "ts":1691349497287183, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1691349497291001, "dur":2753, "ph":"X", "name": "CopyFiles",  "args": { "detail":"SixthWeekBuild/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":7, "ts":1691349497293879, "dur":11630, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles SixthWeekBuild/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":7, "ts":1691349497305686, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1691349497305720, "dur":1642, "ph":"X", "name": "CopyFiles",  "args": { "detail":"SixthWeekBuild/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":7, "ts":1691349497307398, "dur":171834, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles SixthWeekBuild/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":7, "ts":1691349497479238, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1691349497479245, "dur":4973, "ph":"X", "name": "CopyFiles",  "args": { "detail":"SixthWeekBuild/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":7, "ts":1691349497484257, "dur":201852, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles SixthWeekBuild/SixthWeekHomework_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1691349497686113, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1691349497686121, "dur":16218, "ph":"X", "name": "CopyFiles",  "args": { "detail":"SixthWeekBuild/SixthWeekHomework_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1691349497702378, "dur":38991, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles SixthWeekBuild/SixthWeekHomework_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1691349497741372, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1691349497741379, "dur":26703, "ph":"X", "name": "CopyFiles",  "args": { "detail":"SixthWeekBuild/SixthWeekHomework_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1691349497768113, "dur":34319, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles SixthWeekBuild/SixthWeekHomework_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1691349497802439, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1691349497802451, "dur":20811, "ph":"X", "name": "CopyFiles",  "args": { "detail":"SixthWeekBuild/SixthWeekHomework_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1691349497823304, "dur":43573, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles SixthWeekBuild/SixthWeekHomework_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1691349497866892, "dur":17, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1691349497866916, "dur":11190, "ph":"X", "name": "CopyFiles",  "args": { "detail":"SixthWeekBuild/SixthWeekHomework_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1691349497878145, "dur":104878, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles SixthWeekBuild/SixthWeekHomework_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1691349497983031, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1691349497983039, "dur":19383, "ph":"X", "name": "CopyFiles",  "args": { "detail":"SixthWeekBuild/SixthWeekHomework_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1691349498002525, "dur":175309, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles SixthWeekBuild/SixthWeekHomework_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":7, "ts":1691349498177839, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1691349498177846, "dur":5555, "ph":"X", "name": "CopyFiles",  "args": { "detail":"SixthWeekBuild/SixthWeekHomework_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":7, "ts":1691349498183433, "dur":128999, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles SixthWeekBuild/SixthWeekHomework_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":7, "ts":1691349498312444, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1691349498312460, "dur":12421, "ph":"X", "name": "CopyFiles",  "args": { "detail":"SixthWeekBuild/SixthWeekHomework_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":7, "ts":1691349498324918, "dur":207607, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles SixthWeekBuild/SixthWeekHomework_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":7, "ts":1691349498532530, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1691349498532539, "dur":2706, "ph":"X", "name": "CopyFiles",  "args": { "detail":"SixthWeekBuild/SixthWeekHomework_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":7, "ts":1691349498535284, "dur":198805, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1691349497283804, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1691349497283804, "dur":3251, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1691349497287055, "dur":146, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles SixthWeekBuild/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":8, "ts":1691349497287204, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1691349497290868, "dur":2001, "ph":"X", "name": "CopyFiles",  "args": { "detail":"SixthWeekBuild/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":8, "ts":1691349497292913, "dur":116, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles SixthWeekBuild/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":8, "ts":1691349497293033, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1691349497293790, "dur":1654, "ph":"X", "name": "CopyFiles",  "args": { "detail":"SixthWeekBuild/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":8, "ts":1691349497295553, "dur":110, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles SixthWeekBuild/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":8, "ts":1691349497295666, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1691349497295674, "dur":2821, "ph":"X", "name": "CopyFiles",  "args": { "detail":"SixthWeekBuild/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":8, "ts":1691349497298539, "dur":10229, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles SixthWeekBuild/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":8, "ts":1691349497308771, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1691349497308779, "dur":1488, "ph":"X", "name": "CopyFiles",  "args": { "detail":"SixthWeekBuild/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":8, "ts":1691349497310302, "dur":102, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles SixthWeekBuild/SixthWeekHomework_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":8, "ts":1691349497310407, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1691349497311546, "dur":19559, "ph":"X", "name": "CopyFiles",  "args": { "detail":"SixthWeekBuild/SixthWeekHomework_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":8, "ts":1691349497331146, "dur":17451, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles SixthWeekBuild/SixthWeekHomework_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1691349497348603, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1691349497348703, "dur":1797, "ph":"X", "name": "CopyFiles",  "args": { "detail":"SixthWeekBuild/SixthWeekHomework_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1691349497350537, "dur":39272, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles SixthWeekBuild/SixthWeekHomework_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1691349497389814, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1691349497389820, "dur":8270, "ph":"X", "name": "CopyFiles",  "args": { "detail":"SixthWeekBuild/SixthWeekHomework_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1691349497398215, "dur":25101, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles SixthWeekBuild/SixthWeekHomework_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1691349497423322, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1691349497423331, "dur":2248, "ph":"X", "name": "CopyFiles",  "args": { "detail":"SixthWeekBuild/SixthWeekHomework_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1691349497425617, "dur":95093, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles SixthWeekBuild/SixthWeekHomework_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1691349497520715, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1691349497520722, "dur":3059, "ph":"X", "name": "CopyFiles",  "args": { "detail":"SixthWeekBuild/SixthWeekHomework_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1691349497523814, "dur":42989, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles SixthWeekBuild/SixthWeekHomework_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1691349497566810, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1691349497566844, "dur":2515, "ph":"X", "name": "CopyFiles",  "args": { "detail":"SixthWeekBuild/SixthWeekHomework_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1691349497569392, "dur":22997, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles SixthWeekBuild/SixthWeekHomework_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1691349497592396, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1691349497592410, "dur":1540, "ph":"X", "name": "CopyFiles",  "args": { "detail":"SixthWeekBuild/SixthWeekHomework_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1691349497593986, "dur":39858, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles SixthWeekBuild/SixthWeekHomework_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1691349497633850, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1691349497633859, "dur":20804, "ph":"X", "name": "CopyFiles",  "args": { "detail":"SixthWeekBuild/SixthWeekHomework_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1691349497654695, "dur":21826, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles SixthWeekBuild/SixthWeekHomework_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1691349497676527, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1691349497676538, "dur":1518, "ph":"X", "name": "CopyFiles",  "args": { "detail":"SixthWeekBuild/SixthWeekHomework_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1691349497678085, "dur":18619, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles SixthWeekBuild/SixthWeekHomework_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1691349497696710, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1691349497696719, "dur":7245, "ph":"X", "name": "CopyFiles",  "args": { "detail":"SixthWeekBuild/SixthWeekHomework_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1691349497703995, "dur":43331, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles SixthWeekBuild/SixthWeekHomework_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1691349497747331, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1691349497747340, "dur":20211, "ph":"X", "name": "CopyFiles",  "args": { "detail":"SixthWeekBuild/SixthWeekHomework_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1691349497767646, "dur":24115, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles SixthWeekBuild/SixthWeekHomework_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1691349497791767, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1691349497791777, "dur":2614, "ph":"X", "name": "CopyFiles",  "args": { "detail":"SixthWeekBuild/SixthWeekHomework_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1691349497794424, "dur":27518, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles SixthWeekBuild/SixthWeekHomework_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1691349497821950, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1691349497821961, "dur":5124, "ph":"X", "name": "CopyFiles",  "args": { "detail":"SixthWeekBuild/SixthWeekHomework_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1691349497827150, "dur":171525, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles SixthWeekBuild/SixthWeekHomework_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1691349497998710, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1691349497998719, "dur":3453, "ph":"X", "name": "CopyFiles",  "args": { "detail":"SixthWeekBuild/SixthWeekHomework_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1691349498002202, "dur":261443, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles SixthWeekBuild/SixthWeekHomework_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":8, "ts":1691349498263652, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1691349498263660, "dur":4480, "ph":"X", "name": "CopyFiles",  "args": { "detail":"SixthWeekBuild/SixthWeekHomework_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":8, "ts":1691349498268184, "dur":239333, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles SixthWeekBuild/SixthWeekHomework_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":8, "ts":1691349498507524, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1691349498507536, "dur":9748, "ph":"X", "name": "CopyFiles",  "args": { "detail":"SixthWeekBuild/SixthWeekHomework_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":8, "ts":1691349498517316, "dur":216788, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1691349498739163, "dur":2464, "ph":"X", "name": "ProfilerWriteOutput" }
+,
